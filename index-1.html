@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Register Form</title>
+		<link rel="stylesheet" type="text/css" href="./css/styles-1.css">
+		<script src="./js/main-1.js"></script>
+	</head>
+	<body>
+		<!-- Panel -1 -->
+		<div id="pan-1">
+			<form id="frm">
+			
+			<!-- header -->
+				<div class="header">
+					<p>Register Form</p>
+				</div>
+			<!-- body -->	
+				<div class="body">
+					<div class="inputs">
+						<p>First Name: <input type="text" id="firstName"></p>
+						<p>Last Name: <input type="text" id="lastName"></p>
+						<p><span id="vName"></span></p>
+					</div>
+					
+					<div class="radio">
+						<p>
+							<input type="radio" value="female" name="gender">
+							<label>Female</label>
+						
+						</p>
+						
+						<p>
+							<input type="radio" value="male" name="gender">
+							<label>Male</label>
+						
+						</p>
+						<p><span id="vGender"></span></p>
+					</div>
+					
+					<div class="chBox">
+						<p>
+							<input type="checkbox" value="student" class="jobTitle">
+							<label>Student</label>
+						
+						</p>
+						<p>
+							<input type="checkbox" value="employee" class="jobTitle">
+							<label>Employee</label>
+						
+						</p>
+						<p><span id="vJob"></span></p>
+					
+					</div>
+				</div>
+			<!-- footer -->
+				<div class="footer">
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</div>
+			</form>
+		
+		
+		</div>
+	<!-- Panel -2 -->	
+		<div id="display">
+			
+			<table id="tab">
+				<tr>
+					<td>First Name:</td>
+					<td><span id="fName"></span></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><span id="lName"></span></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td><span id="userGender"></span></td>
+				</tr>
+				<tr>
+					<td>Job Status:</td>
+					<td><span id="userJob"></span></td>
+				</tr>
+			
+			</table>
+		
+		</div>
+	
+
+
+		
+	
+	</body>
+	
+
+</html>
