@@ -1,0 +1,106 @@
+
+body{
+	
+	background-color:#eee;
+	font-family:Tahoma;
+	font-size:16px;
+}
+
+#frm, #display{
+	
+	background-color:orangered;
+	width:800px;
+	margin:auto;
+	padding:20px;
+}
+
+#frm .header, #frm .body, #frm .footer{
+	
+	border: 1px solid gray;
+	padding:5px 20px;
+	background-color: lightgoldenrodyellow;
+	margin:10px;
+}
+#frm .header p{
+	
+	border: 2px solid gray;
+	margin:auto;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	font-style:italic;
+	padding:10px;
+}
+
+
+#frm .body .inputs{
+	
+	border: 1px solid #000;
+	width:40%;
+	display:inline-block;
+}
+
+.inputs p{
+	
+	margin:20px;
+	margin-bottom:50px;
+}
+
+#frm .body .radio, 
+#frm .body .chBox{
+	
+	border: 1px solid #000;
+	width:20%;
+	display:inline-block;
+	margin-left:40px;
+	vertical-align:top;
+	padding:10px;
+	
+}
+
+#frm .footer input{
+	
+	padding:10px 20px;
+	background-color:orangered;
+	border:none;
+	text-transform:uppercase;
+	font-weight:bold;
+	cursor:pointer;
+	color:lightgoldenrodyellow;
+}
+
+#frm .footer input[type="submit"]{
+	float:right;
+}
+
+#vName, #vGender, #vJob{
+	
+	color:orangered;
+}
+
+#tab{
+	
+	border: 1px solid gray;
+	padding:20px 5px;
+	background-color:lightgoldenrodyellow;
+	margin:10px auto;
+	
+}
+
+#display{
+	
+	visibility:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
